@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="icon" href="img/vet.png">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+        <title>Veterinaria</title>
+  </head>
+  <body style="background-image: url(img/fondo.webp);
+          width: 1000px;">
+          
+    
+    <form id="formulario" class="" method="post" action="/">
+        <h1 >Registra tu mascota</h1> <br><br>
+        <img id="imagen" src="img/icono.jpg" alt="icono"> <br> <br>
+        Por favor diligencia los siguientes datos de tu mascota y da clic en enviar para completar el registro. <br> <br>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="nombre">Nombre</label>
+            <input type="text" class="form-control" id="nombre" name="nombre">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="edad">Edad</label>
+            <input type="number" class="form-control" id="edad" name="edad" placeholder="Digita un número ">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="direccion">Dirección</label>
+          <input type="text" class="form-control" id="direccion" placeholder="Cra.." name="direccion">
+        </div>
+        <div class="form-group">
+          <label for="nresponsable">Nombre del responsable</label>
+          <input type="text" class="form-control" id="nresponsable" placeholder="" name="nresponsable">
+        </div>
+
+        <button type="submit" class="btn btn-outline-info" >Enviar</button>
+      </form>
+

@@ -1,0 +1,24 @@
+body{   background-image: url(img/fondo.webp);
+    width: 1000px;
+   }
+   
+   #formulario{ width: 703px;
+       margin-left: calc(50% - 80px);
+       margin-top: 50px;
+       background-color: aliceblue;
+       border-radius: 10px;
+       padding: 20px;
+       border: double black ; border-width: 10px;
+   }
+   
+   #imagen{
+       width: 200px;
+       height: 200px;
+       margin-left: 230px;
+       border: solid black;
+       border-radius: 100px;
+   }
+   
+   h1{
+       text-align: center;
+   }
